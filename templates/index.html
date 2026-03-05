@@ -10,6 +10,33 @@
 
 <h1>{{random}}</h1>
 <h2>{{todo_query_set}}</h2>
+<br>
+<h3>{{todo0.description}}</h3>
+<!-- <h3>{{todo1}}</h3>
+<h3>{{todol}}</h3>
+<h1>{{todofield}}</h1> -->
+
+
+{% for todo in todo_query_set %}
+
+    <ul>
+        <li>{{todo}}</li>
+
+    </ul>
+
+
+{% endfor %}
+
+{% if 3 == 2 %}
+   <h1>{{todo1}}ghdewvhjvdyduferfeuyefduedvduydve</h1>
+
+
+ {% else %}
+
+<h1>{{todo0}}ghdewvhjvdyduferfeuyefduedvduydve</h1>
+
+{% endif %} 
+
 
 
 

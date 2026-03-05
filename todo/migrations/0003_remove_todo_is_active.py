@@ -4,14 +4,13 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('todo', '0002_todo_is_active'),
+        ("todo", "0002_todo_is_active"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='todo',
-            name='is_active',
+            model_name="todo",
+            name="is_active",
         ),
     ]
